@@ -1,0 +1,70 @@
+.favorites-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.favorites-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.favorites-header h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.login-prompt {
+  text-align: center;
+  padding: 4rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #c0392b;
+}
+
+.no-favorites {
+  text-align: center;
+  grid-column: 1 / -1;
+  padding: 4rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.no-favorites h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .favorites-page {
+    padding: 1rem;
+  }
+
+  .favorites-header h1 {
+    font-size: 2rem;
+  }
+} 

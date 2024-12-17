@@ -1,0 +1,7 @@
+com\homemate\api\repository\PropertyRepository.class
+com\homemate\api\service\PropertyService.class
+com\homemate\api\controller\PropertyController.class
+com\homemate\api\model\Property.class
+com\homemate\api\model\PropertyAmenity.class
+com\homemate\api\HomeMateApplication.class
+com\homemate\api\model\PropertyImage.class
